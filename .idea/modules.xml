@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/01-Demo1-Delayed/01-Demo1-Delayed.iml" filepath="$PROJECT_DIR$/.idea/modules/01-Demo1-Delayed/01-Demo1-Delayed.iml" group="XPtraining/01-Demo1-Delayed" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/01-Demo1-Delayed/01-Demo1-Delayed_main.iml" filepath="$PROJECT_DIR$/.idea/modules/01-Demo1-Delayed/01-Demo1-Delayed_main.iml" group="XPtraining/01-Demo1-Delayed" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/01-Demo1-Delayed/01-Demo1-Delayed_test.iml" filepath="$PROJECT_DIR$/.idea/modules/01-Demo1-Delayed/01-Demo1-Delayed_test.iml" group="XPtraining/01-Demo1-Delayed" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/02-Lab1-SpaceBook/02-Lab1-SpaceBook.iml" filepath="$PROJECT_DIR$/.idea/modules/02-Lab1-SpaceBook/02-Lab1-SpaceBook.iml" group="XPtraining/02-Lab1-SpaceBook" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/02-Lab1-SpaceBook/02-Lab1-SpaceBook_main.iml" filepath="$PROJECT_DIR$/.idea/modules/02-Lab1-SpaceBook/02-Lab1-SpaceBook_main.iml" group="XPtraining/02-Lab1-SpaceBook" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/02-Lab1-SpaceBook/02-Lab1-SpaceBook_test.iml" filepath="$PROJECT_DIR$/.idea/modules/02-Lab1-SpaceBook/02-Lab1-SpaceBook_test.iml" group="XPtraining/02-Lab1-SpaceBook" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/03-Lab2-BugfixDracula/03-Lab2-BugfixDracula.iml" filepath="$PROJECT_DIR$/.idea/modules/03-Lab2-BugfixDracula/03-Lab2-BugfixDracula.iml" group="XPtraining/03-Lab2-BugfixDracula" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/03-Lab2-BugfixDracula/03-Lab2-BugfixDracula_main.iml" filepath="$PROJECT_DIR$/.idea/modules/03-Lab2-BugfixDracula/03-Lab2-BugfixDracula_main.iml" group="XPtraining/03-Lab2-BugfixDracula" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/03-Lab2-BugfixDracula/03-Lab2-BugfixDracula_test.iml" filepath="$PROJECT_DIR$/.idea/modules/03-Lab2-BugfixDracula/03-Lab2-BugfixDracula_test.iml" group="XPtraining/03-Lab2-BugfixDracula" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/04-Demo2-Greeting/04-Demo2-Greeting.iml" filepath="$PROJECT_DIR$/.idea/modules/04-Demo2-Greeting/04-Demo2-Greeting.iml" group="XPtraining/04-Demo2-Greeting" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/04-Demo2-Greeting/04-Demo2-Greeting_main.iml" filepath="$PROJECT_DIR$/.idea/modules/04-Demo2-Greeting/04-Demo2-Greeting_main.iml" group="XPtraining/04-Demo2-Greeting" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/04-Demo2-Greeting/04-Demo2-Greeting_test.iml" filepath="$PROJECT_DIR$/.idea/modules/04-Demo2-Greeting/04-Demo2-Greeting_test.iml" group="XPtraining/04-Demo2-Greeting" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/05-Lab3-PetShop/05-Lab3-PetShop.iml" filepath="$PROJECT_DIR$/.idea/modules/05-Lab3-PetShop/05-Lab3-PetShop.iml" group="XPtraining/05-Lab3-PetShop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/05-Lab3-PetShop/05-Lab3-PetShop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/05-Lab3-PetShop/05-Lab3-PetShop_main.iml" group="XPtraining/05-Lab3-PetShop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/05-Lab3-PetShop/05-Lab3-PetShop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/05-Lab3-PetShop/05-Lab3-PetShop_test.iml" group="XPtraining/05-Lab3-PetShop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/06-Lab4-Flight/06-Lab4-Flight.iml" filepath="$PROJECT_DIR$/.idea/modules/06-Lab4-Flight/06-Lab4-Flight.iml" group="XPtraining/06-Lab4-Flight" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/06-Lab4-Flight/06-Lab4-Flight_main.iml" filepath="$PROJECT_DIR$/.idea/modules/06-Lab4-Flight/06-Lab4-Flight_main.iml" group="XPtraining/06-Lab4-Flight" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/06-Lab4-Flight/06-Lab4-Flight_test.iml" filepath="$PROJECT_DIR$/.idea/modules/06-Lab4-Flight/06-Lab4-Flight_test.iml" group="XPtraining/06-Lab4-Flight" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/07-Demo3-Refactoring/07-Demo3-Refactoring.iml" filepath="$PROJECT_DIR$/.idea/modules/07-Demo3-Refactoring/07-Demo3-Refactoring.iml" group="XPtraining/07-Demo3-Refactoring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/07-Demo3-Refactoring/07-Demo3-Refactoring_main.iml" filepath="$PROJECT_DIR$/.idea/modules/07-Demo3-Refactoring/07-Demo3-Refactoring_main.iml" group="XPtraining/07-Demo3-Refactoring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/07-Demo3-Refactoring/07-Demo3-Refactoring_test.iml" filepath="$PROJECT_DIR$/.idea/modules/07-Demo3-Refactoring/07-Demo3-Refactoring_test.iml" group="XPtraining/07-Demo3-Refactoring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/08-Lab5-MovieRental/08-Lab5-MovieRental.iml" filepath="$PROJECT_DIR$/.idea/modules/08-Lab5-MovieRental/08-Lab5-MovieRental.iml" group="XPtraining/08-Lab5-MovieRental" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/08-Lab5-MovieRental/08-Lab5-MovieRental_main.iml" filepath="$PROJECT_DIR$/.idea/modules/08-Lab5-MovieRental/08-Lab5-MovieRental_main.iml" group="XPtraining/08-Lab5-MovieRental" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/08-Lab5-MovieRental/08-Lab5-MovieRental_test.iml" filepath="$PROJECT_DIR$/.idea/modules/08-Lab5-MovieRental/08-Lab5-MovieRental_test.iml" group="XPtraining/08-Lab5-MovieRental" />
+      <module fileurl="file://$PROJECT_DIR$/XPtraining.iml" filepath="$PROJECT_DIR$/XPtraining.iml" group="XPtraining" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/XPtraining_main.iml" filepath="$PROJECT_DIR$/.idea/modules/XPtraining_main.iml" group="XPtraining" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/XPtraining_test.iml" filepath="$PROJECT_DIR$/.idea/modules/XPtraining_test.iml" group="XPtraining" />
+    </modules>
+  </component>
+</project>

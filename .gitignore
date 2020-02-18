@@ -1,0 +1,5 @@
+# Project exclude paths
+/.gradle/
+/08-Lab5-MovieRental/build/
+/08-Lab5-MovieRental/build/classes/java/main/
+/08-Lab5-MovieRental/build/classes/java/test/

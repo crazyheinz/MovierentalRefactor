@@ -1,0 +1,8 @@
+include '01-Demo1-Delayed'
+include '02-Lab1-SpaceBook'
+include '03-Lab2-BugfixDracula'
+include '04-Demo2-Greeting'
+include '05-Lab3-PetShop'
+include '06-Lab4-Flight'
+include '07-Demo3-Refactoring'
+include '08-Lab5-MovieRental'
