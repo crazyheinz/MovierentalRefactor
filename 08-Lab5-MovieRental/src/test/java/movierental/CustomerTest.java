@@ -1,12 +1,13 @@
 package movierental;
 
+import movierental.movieTypes.ChildrenMovie;
+import movierental.movieTypes.NewRelease;
+import movierental.movieTypes.RegularMovie;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNotNull;
-import static movierental.Movie.Type.REGULAR;
-import static movierental.Movie.Type.CHILDRENS;
-import static movierental.Movie.Type.NEW_RELEASE;
+import static movierental.Movie.Type.*;
 
 public class CustomerTest {
 
@@ -15,11 +16,11 @@ public class CustomerTest {
         Customer c = new CustomerBuilder().build();
         assertNotNull(c);
     }
-;
+
     @Test
     public void testAddRental() {
         Customer customer2 = new CustomerBuilder().withName("Sallie").build();
-        Movie movie1 = new Movie("Gone with the Wind", REGULAR);
+        Movie movie1 = new RegularMovie("Gone with the Wind", REGULAR);
         Rental rental1 = new Rental(movie1, 3); // 3 day rental
         customer2.addRental(rental1);
     }
@@ -32,7 +33,7 @@ public class CustomerTest {
 
     @Test
     public void statementForRegularMovie() {
-        Movie movie1 = new Movie("Gone with the Wind", REGULAR);
+        Movie movie1 = new RegularMovie("Gone with the Wind", REGULAR);
         Rental rental1 = new Rental(movie1, 3); // 3 day rental
         Customer customer2 =
             new CustomerBuilder()
@@ -44,13 +45,13 @@ public class CustomerTest {
             "Amount owed is 3.5\n" +
             "You earned 1 frequent renter points";
         String statement = new StatementFormatter()
-                .formatStatement(customer2.getName(), customer2.getRentals());;
+                .formatStatement(customer2.getName(), customer2.getRentals());
         assertEquals(expected, statement);
     }
 
     @Test
     public void statementForNewReleaseMovie() {
-        Movie movie1 = new Movie("Star Wars", NEW_RELEASE);
+        Movie movie1 = new NewRelease("Star Wars", NEW_RELEASE);
         Rental rental1 = new Rental(movie1, 3); // 3 day rental
         Customer customer2 =
             new CustomerBuilder()
@@ -68,7 +69,7 @@ public class CustomerTest {
 
     @Test
     public void statementForChildrensMovie() {
-        Movie movie1 = new Movie("Madagascar", CHILDRENS);
+        Movie movie1 = new ChildrenMovie("Madagascar", CHILDRENS);
         Rental rental1 = new Rental(movie1, 3); // 3 day rental
         Customer customer2
             = new CustomerBuilder()
@@ -86,11 +87,11 @@ public class CustomerTest {
 
     @Test
     public void statementForManyMovies() {
-        Movie movie1 = new Movie("Madagascar", CHILDRENS);
+        Movie movie1 = new ChildrenMovie("Madagascar", CHILDRENS);
         Rental rental1 = new Rental(movie1, 6); // 6 day rental
-        Movie movie2 = new Movie("Star Wars", NEW_RELEASE);
+        Movie movie2 = new NewRelease("Star Wars", NEW_RELEASE);
         Rental rental2 = new Rental(movie2, 2); // 2 day rental
-        Movie movie3 = new Movie("Gone with the Wind", REGULAR);
+        Movie movie3 = new RegularMovie("Gone with the Wind", REGULAR);
         Rental rental3 = new Rental(movie3, 8); // 8 day rental
         Customer customer1
             = new CustomerBuilder()
